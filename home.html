@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/videos.css">
   <link rel="stylesheet" href="styles/sidebar.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,7 +12,24 @@
   <title>Youtube.com Clone</title>
 </head>
 <body >
-  <input class="search-input" type="search" placeholder="Search">
+  <div class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="header-icons/hamburger-menu.svg" alt="">
+      <img class="youtube-logo" src="header-icons/youtube-logo.svg" alt="">
+    </div>
+    <div class="middle-section">
+      <input class="search-bar" type="search" placeholder="Search">
+      <button class="search-button"><img src="header-icons/search.svg" alt=""></button>
+      <button class="voice-search-button"><img src="header-icons/voice-search-icon.svg" alt=""></button>
+    </div>
+    <div class="right-section">
+      <img src="header-icons/upload.svg" alt="">
+      <img src="header-icons/youtube-apps.svg" alt="">
+      <img src="header-icons/notifications.svg" alt="">
+      <img class="profile-channel-picture" src="videos-pictures/horses.ico" alt="">
+    </div>
+  </div>
+  
   <div class="sidebar">
     <div class="sidebar-link">
       <img src="sidebar-icons/home.svg" alt="">

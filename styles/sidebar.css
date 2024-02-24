@@ -4,7 +4,7 @@
   bottom: 0px;
   top: 55px;
   width: 90px;
-  background-color:rgba(255, 255, 255, 0.77);
+  background-color:white;
   padding-top: 10px;
 
 }
@@ -20,7 +20,7 @@
 }
 
 .sidebar-link:hover{
-  background-color:rgb(242, 238, 238);
+  background-color:rgb(246, 244, 244);;
 
 }
 

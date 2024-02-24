@@ -1,8 +1,10 @@
 .video-grid{
+  font-family: Roboto,Arial;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 20px;
   row-gap: 40px;
+  background-color: rgb(246, 244, 244);
   
 }
 @media (max-width:900px) {
@@ -24,6 +26,9 @@ body{
   padding-bottom: 100px;
   padding-left: 95px;
   padding-right: 25px;
+  padding-top: 80px;
+  
+ 
 }
 
 .thumbnail{
