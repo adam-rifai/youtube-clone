@@ -3,8 +3,35 @@
   left: 0px;
   bottom: 0px;
   top: 55px;
-  width: 72px;
+  width: 90px;
   background-color:rgba(255, 255, 255, 0.77);
+  padding-top: 10px;
 
 }
 
+.sidebar-link{
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  
+}
+
+.sidebar-link:hover{
+  background-color:rgb(242, 238, 238);
+
+}
+
+.sidebar-link img{
+  width: 26px;
+  margin-bottom: 4px;
+}
+
+.sidebar-link div{
+  font-family: Roboto,Arial;
+  font-size: 12px;
+
+
+}
