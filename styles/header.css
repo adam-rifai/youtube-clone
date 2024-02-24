@@ -1,5 +1,5 @@
 .header{
-  height: 55px;
+  height: 60px;
   z-index: 100;
   display: flex;
   flex-direction: row;
@@ -70,6 +70,7 @@
   height: 24px;
   margin-right: 20px;
   margin-left: 24px;
+  cursor: pointer;
 
 }
 .youtube-logo{
@@ -80,16 +81,19 @@
 .search-button{
   height: 40px;
   width: 40px;
+  cursor: pointer;
 }
 
 .voice-search-button{
   height: 40px;
   width: 40px;
+  cursor: pointer;
 }
 
 .right-section img{
   width: 26px;
   height: 26px;
+  cursor: pointer;
 
 
 }
@@ -97,6 +101,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  cursor: pointer;
   
 }
 
